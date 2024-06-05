@@ -79,6 +79,14 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		align-content: space-between;
+		flex-direction: column;
+	
+		/* original */
+		/* display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch; */
 	}
 
 		.row > * {
@@ -1552,7 +1560,10 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			width: 320%;
+			/* original */
+			/* display: block;
+			width: 100%; */
 		}
 
 		.image.fit {
@@ -2203,3 +2214,10 @@ input, select, textarea {
 		text-indent: 50px;
 
 	}
+
+
+  
+
+
+
+	
